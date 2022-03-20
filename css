@@ -1,0 +1,45 @@
+body {
+    background: beige;
+}
+h1 {
+    font-size: large;
+    color: dimgrey;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-block-color: dimgrey;
+}
+ul {
+    position:absolute
+}
+ul#sousmenu1 {
+    list-style: none;
+    position:absolute;
+    display: none;
+} 
+ul#sousmenu2 {
+    list-style: none;
+    position: absolute;
+    display: none;
+}
+#menu a {
+    display: block;
+    text-decoration: none;
+    color:dimgray
+}
+li {
+    position: relative;
+    list-style: none;
+    text-decoration: none;
+    color:dimgray;
+}
+li :hover {
+    color: black;
+}
+li#section2 :hover ul#sousmenu1 {
+ top:0;
+ left: 200px;  
+}
+li#section3 :hover ul#sousmenu2 {
+ top:0;
+ left: 200px; 
+}
